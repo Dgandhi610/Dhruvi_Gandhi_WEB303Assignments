@@ -44,4 +44,30 @@ $('#prospect').on('click', function () {
                 }
             };
             xhr.send("serach = ardunio");
-        })
+        });
+
+/* Solution by sir! 
+        
+        $ (function)(){
+            $('#content-warpper a').on('click', function () {
+                let id = this.id;
+                console.log("this id is: ", id);
+
+            })
+            let xhr = xhr = new XMLHttpRequest;
+
+
+            xhr.open('GET' , 'test.html' , true)
+
+
+            xhr.onload function(){
+                if xhr status ===200{
+                    $(#"content").html(xhr.responseText).hide().fadeIn(2000);
+                }
+            };
+            xhr.send();
+        });
+    });
+        
+        
+*/
